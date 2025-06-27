@@ -1,5 +1,5 @@
 databases:
-  - name: Othman github
+  - name: Othman_github
     ipAllowList: []
     region: frankfurt
     plan: free
