@@ -6,7 +6,7 @@ databases:
 services:
   - type: web
     plan: free
-    name: Source
+    name: Othman_github
     env: python
     repo: https://github.com/Uthman591988/Tepton-source
     buildCommand: pip install -U -r requirements.txt
@@ -31,6 +31,6 @@ services:
         value: 3.10.9
       - key: DATABASE_URL
         fromDatabase:
-          name: Source
+          name: Othman_github
           property: connectionString  
   
