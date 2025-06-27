@@ -1,5 +1,5 @@
 databases:
-  - name: Source
+  - name: Othman github
     ipAllowList: []
     region: frankfurt
     plan: free
@@ -8,7 +8,7 @@ services:
     plan: free
     name: Source
     env: python
-    repo: https://github.com/RRJJB/Source
+    repo: https://github.com/Uthman591988/Tepton-source
     buildCommand: pip install -U -r requirements.txt
     startCommand: python3 server.py & python3 -m Tepthon
     region: frankfurt
